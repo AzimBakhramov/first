@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background: #EAE7DC;    
+    /* beliy */
+   
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* =====HEADER====== */
+
+.header{
+    width: 100%;
+    height: 650px;
+    /* display: flex; */
+    margin: 0 auto;
+}
+
+.link{
+    text-decoration: none;
+    font-size:25px ;
+    color:#8E8D8A;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 17px 20px;  
+}
+.link:hover{
+    background:rgba(128, 128, 128, 0.349);
+    color:rgb(114, 99, 99);
+    transition: 1s;
+    padding: 17px 40px;  
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px ;
+    background:#D8C3A5;
+    /* bejeviy */
+    
+}
+
+.nav_list{
+    display: flex;
+    }
+
+.nav_list_link{
+    padding: 20px 40px;
+    font-size:25px ;
+    color:#8E8D8A;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* seriy */
+}
+.nav_list_link:hover{
+    background:rgba(128, 128, 128, 0.349);
+    color:rgb(114, 99, 99);
+    transition: 1s;
+    padding: 17px 40px;
+    }
+
+.parent{
+    width: 100%;
+    height: 550px;
+   
+    display: flex;
+    justify-content:space-between;
+}
+
+/* kategotii */
+.kategori{
+    width: 250px;
+    height: 550px;
+    
+}
+
+.razdel{
+font-size: 30px;
+color: white;
+padding: 20px 40px;
+color: #E85A4F;
+text-align: center;
+margin-top: 20px;
+color: #E85A4F;
+text-transform: uppercase;
+font-weight: 700;
+text-shadow: 0px 1px 0px #666;
+}
+
+.stolb{
+display: flex;
+ flex-direction: column;
+ 
+ }
+
+ .sin_stolba{
+     padding: 20px 40px;
+    display: flex;
+    margin-top: 2px;
+    font-size:25px ;
+    color:#4b3e3eb7;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #8f877260;
+    border-radius: 20px;
+ }
+ .sin_stolba:hover{
+     background: honeydew;
+     transition: 0.5s;
+ }
+
+ .sin_stolba1{
+    padding: 20px 40px;
+   display: flex;
+   margin-top: 2px;
+   font-size:25px ;
+   color:#4b3e3eb7;
+   font-weight: 700;
+   text-transform: uppercase;
+   background: honeydew;
+   border-radius: 20px;
+   
+   
+}
+.sin_stolba1:hover{
+    background: #8f877260;
+    transition: 0.5s;
+}
+
+ .sin_stolba6{
+    padding: 20px 40px;
+   display: flex;
+   margin-top: 40px;
+   font-size:25px ;
+   color:#4b3e3eb7;
+   font-weight: 700;
+   text-transform: uppercase;
+   background: #79590693;
+   border-radius: 20px;
+   border: 2px outset goldenrod;
+   
+}
+.sin_stolba6:hover{
+    background: honeydew;
+    transition: 0.5s;
+}
+
+
+ /* /kategotii */
+
+ /* skidki */
+ .skidki{
+     width:600px;
+     height: 550px;
+    
+ }
+
+.glav_skidka{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+
+ .skidka1{
+width: 140px;
+height: 200px;
+margin: 20px;
+background: url(../img/skidki/skidka1.png);
+border:2px outset goldenrod;
+}
+
+.skidka1:hover{
+    width: 140px;
+    height: 200px;
+    margin: 20px;
+    background: url(../img/skidki/skidka11.png);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+    }
+
+ .skidka2{
+    width: 140px;
+    height: 200px;
+    margin: 20px;
+    background: url(../img/skidki/skidka2.png);
+    border:2px outset goldenrod;
+}
+.skidka2:hover{
+    width: 140px;
+    height: 200px;
+    margin: 20px;
+    background: url(../img/skidki/skidka22.png);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+    
+}
+
+
+.skidka3{
+    width: 140px;
+    height: 200px;
+     margin: 20px;
+     background: url(../img/skidki/skidka3.png);
+     border:2px outset goldenrod;
+     
+}
+
+.skidka3:hover{
+    width: 140px;
+    height: 200px;
+    margin: 20px;
+    background: url(../img/skidki/skidka33.png);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+    }
+
+.skidka4{
+    width: 140px;
+    height: 200px;
+   margin: 20px;
+   background: url(../img/skidki/skidka4.png);
+   border:2px outset goldenrod;
+}
+.skidka4:hover{
+    width: 140px;
+    height: 200px;
+    margin: 20px;
+     background: url(../img/skidki/skidka44.png);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+    }
+
+/* /skidki */
+
+/* akcii */
+
+.akcii{
+    width: 400px;
+    height: 550px;
+   
+    margin-right: 30px;
+}
+
+.sin_akcii{
+    width: 400px;
+    height: 475px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .img_akcii{
+    width: 140px;
+    height: 200px;
+    box-shadow: 8px 8px 8px #666;
+    margin: 20px;  
+    border: 2px outset goldenrod;
+   }
+   .img_akcii:hover{
+       opacity: 0.7;
+      
+      
+   }
+
+   .podarok{
+       width: 160px;
+       font-family: Colibri;
+       text-align: center;
+       font-size: 25px;
+       text-transform: uppercase;
+       font-size: 30px;
+       color: #E85A4F;
+       font-weight: 700;
+       padding: -1px -2px;
+       text-shadow: 1px 1px 5px rgb(146, 57, 57);
+       }
+     
+   .img_podarok{
+    width: 140px;
+    height: 200px;
+    background: brown;
+    margin: 20px;    
+    box-shadow: 8px 8px 8px #666;
+    border: 2px outset goldenrod;
+   }
+  .img_podarok:hover{
+      opacity:0.7;
+      
+      
+  }
+/* /akcii */
+/* ==/HEADER=== */
+
+
+
+
+
+/* ===MAIN=== */
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+ text-align: center;
+ margin-top: 20px;
+ color: #E85A4F;
+ text-transform: uppercase;
+ font-size: 40px;
+}
+.d_parent{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.d_son{
+    width: 200px;
+    height: 336px;
+    margin: 36px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.d_img{
+    width: 200px;
+    height: 306px;
+    
+}
+.d_img:hover{
+  opacity: 0.6;
+  transition: 0.5;
+  }
+
+.d_mark{
+    padding: 5px;
+    font-size: 20px;
+   
+}
+
+.star{
+    display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   background: #6f805494;
+   padding:1px 72px 1px 73px;
+   color: blanchedalmond;
+   border-radius:0px 0px 10px 10px;
+    
+}
+.d_star{
+    width: 20px;
+    height: 20px;
+}
+/* ===/MAIN=== */
+
+/* ===FOOTER=== */
+
+.footer{
+    width: 100%;  
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background: url(../img/lib.png);
+    background-position:center;
+    margin-top: 50px;
+    
+    }
+
+.son_footer{
+    width: 100%;
+    height: 70px;
+    background: rgba(75, 68, 68, 0.548);
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact{
+    color:rgb(114, 99, 99);
+    margin-right:1.5px;
+    font-size: 20px;
+    background:#D8C3A5;
+    padding: 20px;
+   
+    
+}
+/* ===/FOOTER=== */
+
+
+
+
+
+
+
+
+
+/* ===inform=== */
+
+.inform{
+    width:80% ;
+    height: 570px;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* INFORM_IMG */
+.inform_img{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+     background: url(../img/inform_dystopia/front/01.jpg);
+     border: 2px outset wheat;
+}
+
+.inform_h1{
+    color:rgba(24, 87, 9, 0.795);
+    width: 200px;
+}
+
+.inform_img:hover{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+    background: url(../img/inform_dystopia/back/001.jpg);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+}
+
+
+.inform_img1{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+     background: url(../img/inform_dystopia/front/02.jpg);
+     border: 2px outset wheat;
+}
+
+.inform_img1:hover{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+    background: url(../img/inform_dystopia/back/002.jpg);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+
+}
+.inform_h1_1{
+    color:rgba(24, 87, 9, 0.795);
+    width: 200px;
+}
+
+.inform_img2{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+     background: url(../img/inform_dystopia/front/03.jpg);
+     border: 2px outset wheat;
+}
+
+.inform_img2:hover{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+    background: url(../img/inform_dystopia/back/003.jpg);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+}
+.inform_h1_2{
+    color:rgba(24, 87, 9, 0.795);
+    width: 200px;
+}
+
+
+.inform_img3{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+     background: url(../img/inform_dystopia/front/04.jpg);
+     border: 2px outset wheat;
+}
+
+.inform_img3:hover{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+    background: url(../img/inform_dystopia/back/004.jpg);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+}
+.inform_h1_3{
+    color:rgba(24, 87, 9, 0.795);
+    width: 200px;
+}
+
+.inform_img4{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+     background: url(../img/inform_dystopia/front/05.jpg);
+     border: 2px outset wheat;
+}
+
+.inform_img4:hover{
+    width: 280px;
+    height: 400px;
+    border-radius: 5px;
+    background: url(../img/inform_dystopia/back/005.jpg);
+    transition: 1s;
+    box-shadow: 8px 8px 8px #666;
+}
+.inform_h1_4{
+    color:rgba(24, 87, 9, 0.795);
+    width: 200px;
+}
+
+
+
+/* /INFORM_IMG */
+.anat{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color:rgba(24, 87, 9, 0.795);
+    font-weight: 700;
+}
+
+/* ===/inform=== */
